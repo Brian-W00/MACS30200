@@ -4,10 +4,10 @@
 Chart description:
 Char type: Line graph
 X-axis: Time axis from 2013 to 2018
-Y-axis: Dual-axis, one for sentiment score represent public attitudes, one for unemployment rates
+Y-axis: Dual-axis, one for sentiment score representing public attitudes, one for unemployment rates
 Expected results: There is a generally negative correlation between public attitudes and unemployment rates. The public tends to have a negative attitude when facing a bad economic situation with a relatively higher unemployment rate, and there would be a high sentiment score when there is a lower unemployment rate. Moreover, for example, in 2015, suppose a significant national event may have led to a temporary drop in sentiment nationwide. Still, the unemployment rate did not change significantly due to its short-lived impact.
 2.	Expected results of state comparison
-Char description:
+Char Description:
 Char type: Scatterplot sets, one chart per state
 X-axis: Time axis
 Y-axis: Public sentiments and unemployment rates
@@ -19,7 +19,7 @@ National model: regression analysis of the national data, including the coeffici
 State-level model: regression analysis of each state, reflecting state-wise differences
 Expected results:
 National model: high R square and p-value < 0.01, shows high explanatory power that negative relationship between public sentiments and unemployment rates.
-State-level model: The public attitudes impact coefficient and statistical significance in different states are different. For example, tech-driven states may show a stronger correlation, while traditional manufacturing states have a weaker correlation.
-![image](https://github.com/Brian-W00/MACS30200/assets/143362854/0aa31b79-1cc4-447b-bf05-5e316b79ba03)
+State-level model: The impact of public attitudes on the coefficient and statistical significance in different states are different. For example, tech-driven states may show a stronger correlation, while traditional manufacturing states have a weaker correlation.
+
 
 
